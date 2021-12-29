@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: ashicloud01-container
-        image: <Image>
+        image: barclaysacr02.azurecr.io/ashicloud:latest
         resources:
           limits:
             memory: "128Mi"
